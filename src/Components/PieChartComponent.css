@@ -1,0 +1,77 @@
+.piechart__doughnut {
+  width: 210px;
+  position: relative;
+}
+.pie__chart__body {
+  font: normal normal normal 18px/13px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #4d4f5c;
+  opacity: 1;
+  padding: 12px 0;
+  height: 100%;
+}
+.doughnut__wrapper {
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pie_chart_li {
+  font: normal normal normal 14px/20px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #4d4f5c;
+  opacity: 0.5;
+}
+.pie_chart_li_item {
+  font: normal normal normal 14px/25px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #43425d;
+  opacity: 1;
+}
+.dot {
+  height: 7px;
+  width: 7px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot0 {
+    background-color: rgb(255 99 132);
+}
+.dot1{
+    background-color: rgb(54 162 235);
+}
+.dot2{
+    background-color: rgb(255 205 86);
+}.dot3{
+    background-color: rgb(160 199 86);
+}
+.piechart__details{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.piechart__insideData{
+    position: absolute;
+    top: 38%;
+    left: 30%;
+    width: 40%;
+    text-align: center;
+}
+.piechart__insideData .data{
+    margin: 10px 0;
+}
+.piechart__insideData .sales{
+    padding-right: 4px;
+}
+
+@media only screen and (min-width: 1300px){
+  .piechart__details{
+    width: 75%;
+  }
+}
+
+
