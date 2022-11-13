@@ -20,7 +20,7 @@ function PieChartComponent() {
         </div>
       
       </div>
-      <Divider />
+      <Divider className="pie_divider" />
       <div className="piechart__details">
         {pieChartData.labels.map((item, index) => {
           return (

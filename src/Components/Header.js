@@ -217,7 +217,7 @@ export default function Header() {
                   <Menu {...bindMenu(popupState)}>
                     {profileNotificationData.map((item, index) => {
                       return (
-                        <MenuItem onClick={popupState.close}>
+                        <MenuItem onClick={popupState.close} key={index}>
                           {" "}
                           <ListItem key={index}>
                             <ListItemAvatar>
@@ -309,7 +309,7 @@ export default function Header() {
         <List className="side_list">
           <div className="acme">ACME</div>
           {["Home","Dashboard","Inbox", "Products","Admin"].map((text, index) => (
-            <ListItem key={text}  selected={text === "Dashboard"} className="side__listItem_home" disablePadding>
+            <ListItem key={index}  selected={text === "Dashboard"} className="side__listItem_home" disablePadding>
               <ListItemButton>
                 <ListItemIcon className="side_bar_icons">
                   {sideBarIcons[index]}

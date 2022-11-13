@@ -24,14 +24,14 @@ ChartJS.register(
 );
 
 
-const lineLabels = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul"];
+const lineLabels = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul","Aug","Sep","Oct","Nov","Dec"];
 
 export const lineData = {
   labels: lineLabels,
   datasets: [
     {
       label: "Products sold",
-      data: [10, 5, 20, 15, 20, 10, 9],
+      data: [10, 5, 20, 15, 20, 10, 9,15,20,10,15,25],
       fill: true,
       borderColor: "#80E2FF",
       backgroundColor: "rgba(128, 226, 255,0.1)",
@@ -41,7 +41,7 @@ export const lineData = {
     },
     {
       label: "Total views",
-      data: [20, 10, 15, 20, 10, 15, 25],
+      data: [20, 10, 15, 20, 10, 15, 25,20,10,13,10,20],
       fill: true,
       borderColor: "#B5B3FB",
       backgroundColor: "rgba(181, 179,251,0.1)",

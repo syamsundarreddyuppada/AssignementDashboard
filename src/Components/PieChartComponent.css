@@ -36,42 +36,47 @@
 }
 
 .dot0 {
-    background-color: rgb(255 99 132);
+  background-color: rgb(255 99 132);
 }
-.dot1{
-    background-color: rgb(54 162 235);
+.dot1 {
+  background-color: rgb(54 162 235);
 }
-.dot2{
-    background-color: rgb(255 205 86);
-}.dot3{
-    background-color: rgb(160 199 86);
+.dot2 {
+  background-color: rgb(255 205 86);
 }
-.piechart__details{
-    display: flex;
-    width: 90%;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    margin-top: 10px;
+.dot3 {
+  background-color: rgb(160 199 86);
 }
-.piechart__insideData{
-    position: absolute;
-    top: 38%;
-    left: 30%;
-    width: 40%;
-    text-align: center;
+.piechart__details {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  margin-top: 10px;
 }
-.piechart__insideData .data{
-    margin: 10px 0;
+.piechart__insideData {
+  position: absolute;
+  top: 38%;
+  left: 30%;
+  width: 40%;
+  text-align: center;
 }
-.piechart__insideData .sales{
-    padding-right: 4px;
+.piechart__insideData .data {
+  margin: 10px 0;
+}
+.piechart__insideData .sales {
+  padding-right: 4px;
 }
 
-@media only screen and (min-width: 1300px){
-  .piechart__details{
+@media only screen and (min-width: 1300px) {
+  .piechart__details {
     width: 75%;
   }
 }
 
-
+@media only screen and (max-width: 600px) {
+  .pie_divider {
+    margin: 20px 0 !important;
+  }
+}
