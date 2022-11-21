@@ -134,7 +134,6 @@
   }
   .main__body__leftright{
     flex-direction: column-reverse;
-    height: 100%;
   }
   .main__left{
     width: 100%;
