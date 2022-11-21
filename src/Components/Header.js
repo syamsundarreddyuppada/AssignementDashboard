@@ -49,6 +49,7 @@ const drawerWidth = 240;
 
 const Main = styled("main", { shouldForwardProp: (prop) => prop !== "open" })(
   ({ theme, open }) => ({
+    width:"100%",
     flexGrow: 1,
     padding: "0px 32px 35px 32px",
     transition: theme.transitions.create("margin", {
@@ -322,7 +323,7 @@ export default function Header() {
 
       </Drawer>
 
-      <div style={{width:"100%"}}>
+      <div style={{width:"100%",display:"contents"}}>
       <Main open={open}>
         <DrawerHeader />
         <div className="main__header">
