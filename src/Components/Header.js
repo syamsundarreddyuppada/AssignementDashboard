@@ -322,7 +322,7 @@ export default function Header() {
 
       </Drawer>
 
-      <div>
+      <div style={{width:"100%"}}>
       <Main open={open}>
         <DrawerHeader />
         <div className="main__header">
